@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const { auth, JWT_SECRET } = require("./auth");
 // const JWT_SECRET = "fKx4fcETLeXILiTLgEHVeqo6am3nLiVOtQaRkPLTGVc2MPKvbS";
 
-mongoose.connect("mongodb+srv://shubhammisra936:Q68cWxRRLZPLvHnM@cluster0.mbb3chx.mongodb.net/ToDO");
+mongoose.connect("MONGO_ATLAS_URI");
 const app = express()
 app.use(express.json());
 
